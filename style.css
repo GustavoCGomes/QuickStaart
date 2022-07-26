@@ -1,5 +1,68 @@
 @charset "UTF-8";
+
+
+html {
+    font-size: 62,5%;
+}
+
 body {
     background-color: black;
-    color: white;
+    color: white;   
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
 }
+
+.container-principal {
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    width: 50%;
+}
+
+.centralizar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal {
+    padding: 8rem;
+}
+
+.principal-logo {
+    font-size: 6rem;
+}
+
+.principal-titulo {
+    font-size: 3rem;
+}
+
+.principal-descricao {
+    margin: 3rem 0;
+}
+
+.botoes {
+    gap: 4rem;   
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao {
+    width: 100%;
+    height: 6rem;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.6rem;
+    border-radius: 0.5rem;
+}
+
+
+/* 
+font
+posicionamento
+espaçamento
+botões
+card
+*/
