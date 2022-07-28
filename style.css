@@ -50,11 +50,41 @@ body {
 }
 
 .botao {
+    font-size: 1.6rem;
+    font-weight: 700;
     width: 100%;
     height: 6rem;
-    cursor: pointer;
+    cursor: pointer;  
+}
+
+.card {
+    background: white;
+    max-width: 60rem;
+    overflow: hidden;
+}
+
+.card-cabecalho {
+    background-color: #7026d9;
+    height: 25rem;    
+}
+
+.card-titulo {
+    font-size: 2.5rem;
     font-weight: 700;
-    font-size: 1.6rem;
+}
+
+.card-conteudo {
+    color: black;
+    padding: 3rem 1.5rem;
+    min-height: 14rem;
+}
+
+.embassar {
+    filter: blur(5px);
+}
+
+/*Refatoração*/
+.card, .botao {
     border-radius: 0.5rem;
 }
 
