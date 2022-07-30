@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-image: url("foto-de-fundo.jpg");
+    background-image: url("img/foto-de-fundo.jpg");
     background-size: 100%;
     color: white;   
     font-size: 1.6rem;
