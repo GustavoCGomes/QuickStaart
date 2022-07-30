@@ -9,7 +9,7 @@ function proximaPergunta(proximaPergunta) {
 
     var cardDiv = document.createElement("div")
 
-    cardDiv.classList.add("card","animate__animated","animate__backInRight")
+    cardDiv.classList.add("card","animate__animated","animate__fadeInDown")
 
     cardDiv.innerHTML = `
         <div class="card-cabecalho centralizar">
