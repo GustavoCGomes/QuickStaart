@@ -3,6 +3,8 @@
 
 html {
     font-size: 62,5%;
+    max-width: auto;
+    min-height: auto;
 }
 
 body {
