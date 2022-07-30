@@ -10,8 +10,6 @@
     rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
-
-    
 </head>
 
 <body>
@@ -29,10 +27,10 @@
                     No cartão você encotrará palavras e expressões que irá utilizar no seu dia a dia como dev. Aproveite para testar seus conhecimentos e fixar o significado.
                 </p>
                 <div class="botoes">
-                    <button class="botao">
+                    <button onclick="buscarInformacao()" class="botao">
                         Proxima pergunta
                     </button>
-                    <button class="botao">
+                    <button onclick="revelarResposta()" class="botao">
                         Revelar resposta
                     </button>
                 </div>
@@ -40,7 +38,7 @@
         </div>
 
 
-        <div class="container centralizar">
+        <div class="container centralizar" id="cardContainer">
             <!--Container da direita-->
             <div class="card">
                 <!--Card-->
@@ -48,7 +46,7 @@
                     <h1 class="card-titulo">O que é HTML?</h1>
                 </div>
 
-                <div class="card-conteudo embassar">
+                <div id="resposta" class="card-conteudo blur">
                     <p>
                         A linguagem de Marcação de Hipertexto (HTML) é uma linguagem de computador que  compõe a maior parte das páginas da internet e dos aplicativos online
                     </p>
@@ -56,7 +54,7 @@
             </div>
         </div>
     </div>
-
+    
 </body>
     <script src="script.js"></script>
 </html>
