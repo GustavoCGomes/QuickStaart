@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-    width: 45%;   
+    width: 50%; 
 }
 
 .centralizar {
@@ -85,7 +85,6 @@ body {
     color: black;
     padding: 3rem 1.5rem;
     min-height: 14rem;
-    
 }
 
 .blur {
